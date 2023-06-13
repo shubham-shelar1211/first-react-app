@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+// JSX - HTML + Javscript together.
+// Predefined Tag - h1, p
+// JSX: Extented HTML
+// User Defined Tag
+// <App />
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return "hello world";
 }
 
 export default App;
